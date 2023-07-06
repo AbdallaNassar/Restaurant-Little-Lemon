@@ -1,0 +1,179 @@
+body {
+  font-family: "Markazi Text", serif;
+  background-color: azure;
+  margin: 2rem 5%;
+}
+.logo_header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #333333;
+  border-radius: 1rem;
+}
+nav ul {
+  display: flex;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  justify-content: space-around;
+}
+nav ul a {
+  color: #fff;
+
+  justify-content: flex-end;
+}
+
+nav ul a:hover {
+  color: #e4b95b;
+  border-bottom: 3px solid #e4b95b;
+}
+
+
+.offer {
+  background-image: url(../photos/Asset\ 21.png);
+  background-size: cover;
+  background-position: center;
+  color: #495e57;
+  text-shadow: 2px 2px 8px #fff9b0;
+  text-align: left;
+}
+.offer h1 {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  font-size: 60px;
+}
+
+.offer p {
+  max-width: 100%;
+  margin-left: 1rem;
+  margin-right: 12rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+section {
+  display: flex;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+section article {
+  flex: 1;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  background-color: #fbdabb79;
+  height: auto;
+  width: 1rem;
+}
+section article img {
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+}
+section article h2 {
+  text-align: center;
+  text-shadow: 2px 2px 8px #4e5e2b;
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+section article p {
+  font-size: 1.3rem;
+  margin: 0.5rem 1rem;
+}
+section article a {
+  font-size: 1.4rem;
+  margin: 1rem 2rem;
+}
+section article a:hover {
+  color: rgb(29, 159, 163);
+  border-bottom: 3px solid rgb(16, 170, 175);
+}
+section article ul {
+  font-size: 1.6rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.container form{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.id{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+label {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Varela Round';
+}
+.submit{
+    text-align: center;
+}
+button{
+        margin-top: 2rem;
+        padding: .8rem 1.5rem; 
+        background:#92a71f; 
+        border:0 none;
+        cursor:pointer;
+
+        border-radius: 2rem; 
+    
+}
+input ,textarea{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:1rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 2rem 1rem;
+  align-items: center;
+
+}
+footer p{
+  border-top: #333333;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  text-align: right;
+  font-size: 1.5rem;
+}
+footer img{
+  max-width: 8%;
+}
